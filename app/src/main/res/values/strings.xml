@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wisata Jateng</string>
+    <string name="text_home">Welcome to Wisata Jateng App</string>
+    <string name="explore_now">Explore Now</string>
+    <string name="about">About</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="cardview">Card View</string>
+</resources>

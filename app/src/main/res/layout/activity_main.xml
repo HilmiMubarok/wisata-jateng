@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingLeft="@dimen/margin_h"
+            android:paddingRight="@dimen/margin_h"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="match_parent"
+                android:src="@drawable/home"
+                android:layout_height="@dimen/height_imghome"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_head_size"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/text_head_mt"
+                android:text="@string/text_home"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/btn_home"
+            android:layout_width="match_parent"
+            style="@style/ButtonHome"
+            android:layout_marginTop="@dimen/margin_v"
+            android:textSize="@dimen/text_head_size"
+            android:text="@string/explore_now"
+            android:layout_marginBottom="28dp"
+            android:layout_alignParentBottom="true"
+            android:padding="12dp"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
