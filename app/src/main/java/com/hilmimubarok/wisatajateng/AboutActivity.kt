@@ -24,6 +24,10 @@ class AboutActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_li -> {
                 web_page_open("https://id.linkedin.com/in/mohammad-hilmi-mubarok-77b677150")
             }
+
+            R.id.download -> {
+                web_page_open("https://github.com/HilmiMubarok/wisata-jateng/")
+            }
         }
     }
 
